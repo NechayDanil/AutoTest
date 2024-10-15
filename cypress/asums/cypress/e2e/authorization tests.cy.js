@@ -26,6 +26,7 @@ it('Try authorize with an invalid username', function() {
     cy.get('[data-testid="userName"]').type(this.users.invalidUser.name);
     cy.get('[data-testid="password"]').type(this.users.validUser.password);
     cy.get('[data-testid="submit"]').click();
+    cy.wait(10000);
     cy.contains('Ошибка авторизации').should('be.visible');
 });
 
