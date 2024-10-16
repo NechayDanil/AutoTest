@@ -1,0 +1,15 @@
+{
+  "stations": {
+    "name": "ТестАвто",
+    "railwayName": "З-СИБ",
+    "expressCod": "1234567",
+    "comment": "ТестАвтоUpdate"
+        },
+  "railway": {
+    "name": "ТестАвто",
+    "shortName": "Авто",
+    "code": "999",
+    "railwayAdmin": "ГУП «Таджикская железная дорога»",
+    "nameReform": "ТестАвтоUpdate"
+  }
+      }
