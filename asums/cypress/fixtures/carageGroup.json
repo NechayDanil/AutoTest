@@ -5,5 +5,12 @@
     "nameCarier": "АО «ФПК»",
     "nameBranch": "Московский",
     "nameRegistered": "ЛВЧД-3 ОРЕХОВО-ЗУЕВО"
+  },
+  "addMvps": {
+    "nameGroup": "ТестАвтоМВПС",
+    "nameRoelway": "РЖД",
+    "nameCarier": "АО «ФПК»",
+    "nameBranch": "Северо-Западный",
+    "nameRegistered": "ДОСС"
   }
 }
