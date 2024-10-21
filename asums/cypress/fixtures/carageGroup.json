@@ -12,5 +12,9 @@
     "nameCarier": "АО «ФПК»",
     "nameBranch": "Северо-Западный",
     "nameRegistered": "ДОСС"
+  },
+  "addCoreGroupNps": {
+    "addTrain": "0100В",
+    "groupSign": "О"
   }
 }

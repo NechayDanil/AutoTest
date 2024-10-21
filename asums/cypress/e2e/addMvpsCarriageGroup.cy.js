@@ -3,6 +3,10 @@ beforeEach(() => {
     cy.fixture('carageGroup').as('carageGroup');
     cy.visit(Cypress.env('carageGroup'));
 })
+/**
+ * @description Тест для проверки добавления группы вагонов НПС
+ * {@link }
+ */
 it('addCarageGroup', function () {
     cy.intercept('POST', Cypress.env('API_URL'), (req) => {
         if (req.body.operationName === 'createCarriageGroup') {
