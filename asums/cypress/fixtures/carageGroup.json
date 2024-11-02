@@ -14,7 +14,22 @@
     "nameRegistered": "ДОСС"
   },
   "addCoreGroupNps": {
-    "addTrain": "0100В",
-    "groupSign": "О"
+    "addTrainFrom":"0100Е",
+    "addTrainTo":"0099Е",
+    "addShema1": 1,
+    "addShema2": 2,
+    "stationFrom": "ЕКАТЕРИНБУРГ-ПАССАЖИРС",
+    "stationTo": "БОГДАНОВИЧ",
+    "dateFrom": "08.12.2024",
+    "dateTo": "17.12.2027",
+    "carriageType": "К",
+    "carriageDimension": "03-ВМ",
+    "brakeType": "Колодочный, чугунные колодки",
+    "carriageLength": 24580,
+    "carriageTypeAsu": "Купейный(К)",
+    "carriageModel": "Двухвагонный сцеп",
+    "heatType": "Электроотопление",
+    "seatsQuantity": 50
+
   }
 }

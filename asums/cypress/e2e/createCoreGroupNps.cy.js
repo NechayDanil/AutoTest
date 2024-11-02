@@ -12,7 +12,7 @@ beforeEach( () => {
 it ('addParametersGroup', function() {
     cy.login();
     cy.visit(Cypress.env('carageGroup'));
-    cy.get(':nth-child(1) > .css-11kpd8a > .MuiButtonBase-root').click();
+    cy.get(':nth-child(1) > .32-11kpd8a > .MuiButtonBase-root').click();
     cy.contains('Редактировать').click();
     cy.get('[data-testid="addTurnover"]').click();
     cy.get('[data-testid="train"]').type(this.carageGroup.addCoreGroupNps.addTrain);
